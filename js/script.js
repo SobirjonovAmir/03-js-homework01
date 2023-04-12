@@ -99,8 +99,3 @@ if (ask) {
 	}
 }
 
-
-function showCars(cars) {
-	let carList = cars.map(car => `${car.id}. ${car.company} ${car.model} - ${car.price}`).join("\n");
-	alert(`Список автомобилей:\n${carList}`);
-}
